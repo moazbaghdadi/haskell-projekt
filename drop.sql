@@ -1,4 +1,3 @@
 DROP TABLE Match;
-DROP TABLE Player;
 DROP TABLE Team;
 DROP TABLE Seasons;
