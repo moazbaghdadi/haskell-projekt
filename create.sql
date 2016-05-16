@@ -11,6 +11,8 @@ CREATE TABLE Match (
 	season INTEGER REFERENCES Seasons(year),
 	homeTeam VARCHAR(80) REFERENCES Team(name),
 	awayTeam VARCHAR(80) REFERENCES Team(name),
+	homeScore INTEGER NOT NULL,
+	awayScore INTEGER NOT NULL,
 	CHECK (awayTeam != homeTeam),
 
 	PRIMARY KEY (matchWeek, season, homeTeam, awayTeam)
