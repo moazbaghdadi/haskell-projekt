@@ -1,7 +1,16 @@
-﻿INSERT INTO Seasons VALUES 
+﻿BEGIN;
+
+
+DELETE FROM Match;
+DELETE FROM Seasons;
+DELETE FROM team;
+
+COMMIT;
+
+INSERT INTO Seasons VALUES 
 	(2015);
 
-INSERT INTO team (name) VALUES 
+INSERT INTO Team (name) VALUES 
 	('Real Madrid'),
 	('Barcelona'),
 	('Atlético Madrid'),
@@ -23,7 +32,7 @@ INSERT INTO team (name) VALUES
 	('Villarreal'),
 	('Athletic Bilbao');
 	
-INSERT INTO match (matchWeek, season, homeTeam, awayTeam, homeScore, awayScore) VALUES 
+INSERT INTO Match (matchWeek, season, homeTeam, awayTeam, homeScore, awayScore) VALUES 
 	(1, 2015, 'Málaga', 'Sevilla', 0, 0),
 	(1, 2015, 'Espanyol', 'Getafe', 1, 0),
 	(1, 2015, 'Deportivo La Coruña', 'Real Sociedad', 0, 0),
@@ -154,6 +163,148 @@ INSERT INTO match (matchWeek, season, homeTeam, awayTeam, homeScore, awayScore) 
 	(12, 2015, 'Sporting de Gijón', 'Levante', 0, 3),
 	(12, 2015, 'Betis', 'Atlético Madrid', 0, 1),
 	(12, 2015, 'Espanyol', 'Málaga', 2, 0),
-	(12, 2015, 'Granada', 'Athletic Bilbao', 0, 0);
+	(12, 2015, 'Granada', 'Athletic Bilbao', 0, 0),
 	
+	(13, 2015, 'Las Palmas', 'Deportivo La Coruña', 0, 2),
+	(13, 2015, 'Celta Vigo', 'Sporting de Gijón', 2, 1),
+	(13, 2015, 'Levante', 'Betis', 0, 1),
+	(13, 2015, 'Atlético Madrid', 'Espanyol', 1, 0),
+	(13, 2015, 'Málaga', 'Granada', 2, 2),
+	(13, 2015, 'Rayo Vallecano', 'Athletic Bilbao', 0, 3),
+	(13, 2015, 'Getafe', 'Villarreal', 2, 0),
+	(13, 2015, 'Eibar', 'Real Madrid', 0, 2),
+	(13, 2015, 'Barcelona', 'Real Sociedad', 4, 0),
+	(13, 2015, 'Sevilla', 'Valencia', 1, 0),
 	
+	(14, 2015, 'Villarreal', 'Rayo Vallecano', 2, 1),
+	(14, 2015, 'Real Madrid', 'Getafe', 4, 1),
+	(14, 2015, 'Real Sociedad', 'Eibar', 2, 1),
+	(14, 2015, 'Valencia', 'Barcelona', 1, 1),
+	(14, 2015, 'Deportivo La Coruña', 'Sevilla', 1, 1),
+	(14, 2015, 'Sporting de Gijón', 'Las Palmas', 3, 1),
+	(14, 2015, 'Betis', 'Celta Vigo', 1, 1),
+	(14, 2015, 'Espanyol', 'Levante', 1, 1),
+	(14, 2015, 'Granada', 'Atlético Madrid', 0, 2),
+	(14, 2015, 'Athletic Bilbao', 'Málaga', 0, 0),
+	
+	(15, 2015, 'Villarreal', 'Real Madrid', 1, 0),
+	(15, 2015, 'Getafe', 'Real Sociedad', 1, 1),
+	(15, 2015, 'Eibar', 'Valencia', 1, 1),
+	(15, 2015, 'Barcelona', 'Deportivo La Coruña', 2, 2),
+	(15, 2015, 'Sevilla', 'Sporting de Gijón', 2, 0),
+	(15, 2015, 'Las Palmas', 'Betis', 1, 0),
+	(15, 2015, 'Celta Vigo', 'Espanyol', 1, 0),
+	(15, 2015, 'Levante', 'Granada', 1, 2),
+	(15, 2015, 'Atlético Madrid', 'Athletic Bilbao', 2, 1),
+	(15, 2015, 'Rayo Vallecano', 'Málaga', 1, 2),
+	
+	(16, 2015, 'Real Madrid', 'Rayo Vallecano', 10, 2),
+	(16, 2015, 'Real Sociedad', 'Villarreal', 0, 2),
+	(16, 2015, 'Valencia', 'Getafe', 2, 2),
+	(16, 2015, 'Deportivo La Coruña', 'Eibar', 2, 0),
+	(16, 2015, 'Sporting de Gijón', 'Barcelona', 1, 3),
+	(16, 2015, 'Betis', 'Sevilla', 0, 0),
+	(16, 2015, 'Espanyol', 'Las Palmas', 1, 0),
+	(16, 2015, 'Granada', 'Celta Vigo', 0, 2),
+	(16, 2015, 'Athletic Bilbao', 'Levante', 2, 0),
+	(16, 2015, 'Málaga', 'Atlético Madrid', 1, 0),
+	
+	(17, 2015, 'Real Madrid', 'Real Sociedad', 3, 1),
+	(17, 2015, 'Villarreal', 'Valencia', 1, 0),
+	(17, 2015, 'Getafe', 'Deportivo La Coruña', 0, 0),
+	(17, 2015, 'Eibar', 'Sporting de Gijón', 2, 0),
+	(17, 2015, 'Barcelona', 'Betis', 4, 0),
+	(17, 2015, 'Sevilla', 'Espanyol', 2, 0),
+	(17, 2015, 'Las Palmas', 'Granada', 4, 1),
+	(17, 2015, 'Celta Vigo', 'Athletic Bilbao', 0, 1),
+	(17, 2015, 'Levante', 'Málaga', 0, 1),
+	(17, 2015, 'Rayo Vallecano', 'Atlético Madrid', 0, 2),
+	
+	(18, 2015, 'Rayo Vallecano', 'Real Sociedad', 2, 2),
+	(18, 2015, 'Valencia', 'Real Madrid', 2, 2),
+	(18, 2015, 'Deportivo La Coruña', 'Villarreal', 1, 2),
+	(18, 2015, 'Sporting de Gijón', 'Getafe', 1, 2),
+	(18, 2015, 'Betis', 'Eibar', 0, 4),
+	(18, 2015, 'Espanyol', 'Barcelona', 0, 0),
+	(18, 2015, 'Granada', 'Sevilla', 2, 1),
+	(18, 2015, 'Athletic Bilbao', 'Las Palmas', 2, 2),
+	(18, 2015, 'Málaga', 'Celta Vigo', 2, 0),
+	(18, 2015, 'Atlético Madrid', 'Levante', 1, 0),
+	
+	(19, 2015, 'Real Sociedad', 'Valencia', 2, 0),
+	(19, 2015, 'Real Madrid', 'Deportivo La Coruña', 5, 0),
+	(19, 2015, 'Villarreal', 'Sporting de Gijón', 2, 0),
+	(19, 2015, 'Getafe', 'Betis', 1, 0),
+	(19, 2015, 'Eibar', 'Espanyol', 2, 1),
+	(19, 2015, 'Barcelona', 'Granada', 4, 0),
+	(19, 2015, 'Sevilla', 'Athletic Bilbao', 2, 0),
+	(19, 2015, 'Las Palmas', 'Málaga', 1, 1),
+	(19, 2015, 'Celta Vigo', 'Atlético Madrid', 0, 2),
+	(19, 2015, 'Levante', 'Rayo Vallecano', 2, 1),
+	
+	(20, 2015, 'Sevilla', 'Málaga', 2, 1),
+	(20, 2015, 'Celta Vigo', 'Levante', 4, 3),
+	(20, 2015, 'Villarreal', 'Betis', 0, 0),
+	(20, 2015, 'Real Sociedad', 'Deportivo La Coruña', 1, 1),
+	(20, 2015, 'Valencia', 'Rayo Vallecano', 2, 2),
+	(20, 2015, 'Real Madrid', 'Sporting de Gijón', 5, 1),
+	(20, 2015, 'Getafe', 'Espanyol', 3, 1),
+	(20, 2015, 'Las Palmas', 'Atlético Madrid', 0, 3),
+	(20, 2015, 'Barcelona', 'Athletic Bilbao', 6, 0),
+	(20, 2015, 'Eibar', 'Granada', 5, 1),
+	
+	(21, 2015, 'Sporting de Gijón', 'Real Sociedad', 5, 1),
+	(21, 2015, 'Málaga', 'Barcelona', 1, 2),
+	(21, 2015, 'Espanyol', 'Villarreal', 2, 2),
+	(21, 2015, 'Granada', 'Getafe', 3, 2),
+	(21, 2015, 'Rayo Vallecano', 'Celta Vigo', 3, 0),
+	(21, 2015, 'Athletic Bilbao', 'Eibar', 5, 2),
+	(21, 2015, 'Atlético Madrid', 'Sevilla', 0, 0),
+	(21, 2015, 'Deportivo La Coruña', 'Valencia', 1, 1),
+	(21, 2015, 'Betis', 'Real Madrid', 1, 1),
+	(21, 2015, 'Levante', 'Las Palmas', 3, 2),
+	
+	(22, 2015, 'Barcelona', 'Atlético Madrid', 2, 1),
+	(22, 2015, 'Getafe', 'Athletic Bilbao', 0, 1),
+	(22, 2015, 'Eibar', 'Málaga', 1, 2),
+	(22, 2015, 'Villarreal', 'Granada', 1, 0),
+	(22, 2015, 'Real Sociedad', 'Betis', 2, 1),
+	(22, 2015, 'Sevilla', 'Levante', 3, 1),
+	(22, 2015, 'Valencia', 'Sporting de Gijón', 0, 1),
+	(22, 2015, 'Las Palmas', 'Celta Vigo', 2, 1),
+	(22, 2015, 'Real Madrid', 'Espanyol', 6, 0),
+	(22, 2015, 'Deportivo La Coruña', 'Rayo Vallecano', 0, 0),
+	
+	(23, 2015, 'Málaga', 'Getafe', 3, 0),
+	(23, 2015, 'Atlético Madrid', 'Eibar', 3, 1),
+	(23, 2015, 'Rayo Vallecano', 'Las Palmas', 2, 0),
+	(23, 2015, 'Athletic Bilbao', 'Villarreal', 0, 0),
+	(23, 2015, 'Sporting de Gijón', 'Deportivo La Coruña', 1, 1),
+	(23, 2015, 'Levante', 'Barcelona', 0, 2),
+	(23, 2015, 'Betis', 'Valencia', 1, 0),
+	(23, 2015, 'Celta Vigo', 'Sevilla', 1, 1),
+	(23, 2015, 'Granada', 'Real Madrid', 1, 2),
+	(23, 2015, 'Espanyol', 'Real Sociedad', 0, 5),
+	
+	(24, 2015, 'Sporting de Gijón', 'Rayo Vallecano', 2, 2),
+	(24, 2015, 'Real Madrid', 'Athletic Bilbao', 4, 2),
+	(24, 2015, 'Villarreal', 'Málaga', 1, 0),
+	(24, 2015, 'Valencia', 'Espanyol', 2, 1),
+	(24, 2015, 'Deportivo La Coruña', 'Betis', 2, 2),
+	(24, 2015, 'Real Sociedad', 'Granada', 3, 0),
+	(24, 2015, 'Sevilla', 'Las Palmas', 2, 0),
+	(24, 2015, 'Getafe', 'Atlético Madrid', 0, 1),
+	(24, 2015, 'Eibar', 'Levante', 2, 0),
+	(24, 2015, 'Barcelona', 'Celta Vigo', 6, 1),
+	
+	(25, 2015, 'Sporting de Gijón', 'Barcelona', 0, 0),
+	(25, 2015, 'Levante', 'Getafe', 0, 0),
+	(25, 2015, 'Las Palmas', 'Barcelona', 0, 0),
+	(25, 2015, 'Espanyol', 'Deportivo La Coruña', 0, 0),
+	(25, 2015, 'Betis', 'Sporting de Gijón', 0, 0),
+	(25, 2015, 'Celta Vigo', 'Eibar', 0, 0),
+	(25, 2015, 'Rayo Vallecano', 'Sevilla', 0, 0),
+	(25, 2015, 'Málaga', 'Real Madrid', 0, 0),
+	(25, 2015, 'Athletic Bilbao', 'Real Sociedad', 0, 0),
+	(25, 2015, 'Granada', 'Valencia', 0, 0),
+	(25, 2015, 'Atlético Madrid', 'Villarreal', 0, 0);
