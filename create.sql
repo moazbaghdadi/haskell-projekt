@@ -1,10 +1,15 @@
-CREATE TABLE Seasons (
+﻿CREATE TABLE Seasons (
 	year INTEGER NOT NULL PRIMARY KEY
 );
 CREATE TABLE Team (
 	name VARCHAR(80) PRIMARY KEY,
-	points INTEGER DEFAULT 0,
 	logo VARCHAR(80) DEFAULT 'noLogo.jpg'
+);
+CREATE TABLE Points (
+    team VARCHAR(80) REFERENCES Team(name),
+    season INTEGER REFERENCES Seasons(year),
+    points INTEGER DEFAULT 0,
+    goalDiff INTEGER DEFAULT 0
 );
 CREATE TABLE Match (
 	matchWeek INTEGER NOT NULL,
