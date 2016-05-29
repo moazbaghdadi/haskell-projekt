@@ -1,16 +1,40 @@
 
-module Main where
+module DBconnection where
 
 import Database.HDBC.PostgreSQL
 import Database.HDBC
+import Data.Aeson
 
-data Table = Table Season [Team]
+data Table = Table {season, 
+    teams :: [Team]}
+    
+data Team = Team { team :: String, 
+    points :: Integer, 
+    goaldiff :: Integer, 
+    logo :: String}
 
-data Season = S Integer
-data Team = T String Points Goaldiff Logo
-data Points = P Integer
-data Goaldiff = D Integer
-data Logo = L String
+data Match = Match {
+    matchweek :: Integer, 
+    season, 
+    hometeam :: String, 
+    awayteam :: String, 
+    homescore :: String,
+    awayscore :: String}
+
+type season :: integer
+
+instance FromJSON Match where
+  parseJSON (Object v) =
+    Match <$> v .: "matchweek"
+          <*> v .: "season"
+          <*> v .: "hometeam"
+          <*> v .: "awayteam"
+          <*> v .: "homescore"
+          <*> v .: "awayscore"
+  parseJSON _ = mzero
+
+instance FromRow Team where
+  fromRow = Todo <$> field <*> field <*> field
 
 seasonQuery :: IO ()
 seasonQuery = 
@@ -40,19 +64,19 @@ seasonQuery =
                             Nothing -> "NULL"-}
           convRow x = fail $ "Unexpected result: " ++ show x 
 
-teamQuery :: Integer -> IO ()
+teamQuery :: Integer -> IO [Team]
 teamQuery season = 
     do -- Connect to the database
        conn <- connectPostgreSQL' "host=localhost dbname=testDB user=postgres password=postgres"
 
        -- Run the query and store the results in r
        r <- quickQuery' conn
-            "select t.name, p.season, p.points, p.goaldiff, t.logo from team t join points p on t.name = p.team where season = ? order by (points, goaldiff) desc"
+            "select t.name, p.points, p.goaldiff, t.logo from team t join points p on t.name = p.team where season = ? order by (points, goaldiff) desc"
             [toSql season]
 
        -- Convert each row into a String
-       let stringRows = teamsToJSON $ map convRow r
-                        
+       let stringRows = map convRow r
+
        -- Print the rows out
        mapM_ putStrLn [stringRows]
 
@@ -72,18 +96,20 @@ teamQuery season =
                              Just x -> x
                              Nothing -> "NULL"
 
-tableToJSON :: Table -> String
-tableToJSON (Table se teams) = "{\"season\" : \"" ++ x se ++ "\", \"table\" : [" ++ teamsToJSON teams ++ "] }"
-    where x (S se)= show se
-
-teamsToJSON :: [Team] -> String
-teamsToJSON [] = ""
-teamsToJSON ((T t p d l):ts) = "{ \"team\" : \"" ++ t ++ "\", \"points\" : \"" ++ getPoints p ++ "\", \"goaldiff\" : \"" ++ 
-                             getGoaldiff d ++ "\", \"logo\" : \"" ++ getLogo l ++ "\"}" ++ comma ++ teamsToJSON ts
-    where
-        getPoints (P x) = show x
-        getGoaldiff (D x) = show x
-        getLogo (L x) = x
-        comma = case ts of
-            []     -> ""
-            otherwise -> ", "
+addMatch :: Match -> IO Match
+addMatch (Match week season home away score1 score2) =
+    do -- Connect to the database
+       conn <- connectPostgreSQL' "host=localhost dbname=testDB user=postgres password=postgres"
+    -- Run the query and store the results in r
+       r <- quickQuery' conn
+            "INSERT INTO Match VALUES (?,?,?,?,?,?);"
+            [toSql week, toSql season, toSql home, toSql away, toSql score1, toSql score2]
+       
+       -- Convert each row into a String
+       let stringRows = show r
+       
+       -- Print the rows out
+       mapM_ putStrLn stringRows
+       
+       -- And disconnect from the database
+       disconnect conn
