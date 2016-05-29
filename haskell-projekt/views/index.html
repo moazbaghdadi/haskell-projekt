@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title>LA LIGA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+</head>
+<body>
+	<header>
+			<img class="title-image" src="images/logo.jpg" width="100px">
+	</header>
+	<main> 
+	<div ng-controller="TableController">
+		<nav>
+				<a ng-click="talbeClick()">TABLE</a> <a ng-click="addMatchesClick()">ADD MATCHES</a> <a ng-click="chancesClick()">CHANCES</a>
+		</nav>
+		<table>
+				<tr>
+					<td width="20%">Logo</td><td width="30%">Team</td><td width="10%">Points</td><td width="10%">GD</td>
+				</tr>
+				<tr ng-repeat="row in rows">
+					<td><img src="/images/{{row.logo}}" height="50%" /></td><td>{{row.team}}</td><td>{{row.points}}</td><td>{{row.goaldiff}}</td>
+				</tr>
+		</table>
+	</div>
+	</main>
+</body>
+<script>
+var app = angular.module('myApp', []);
+app.controller('TableController', ['$window', '$scope', '$http', function($window,$scope, $http) {
+		$http.get("/getTable")
+    .then(function (response) {
+		$scope.rows = response.data.teams;
+		});
+}]);
+</script>
+</html>

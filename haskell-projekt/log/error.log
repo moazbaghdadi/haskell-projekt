@@ -1,0 +1,630 @@
+[29/May/2016:13:32:01 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:13:32:17 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:13:32:17 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:13:35:46 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:13:49:46 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:13:49:46 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:13:54:13 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:13:59:00 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:13:59:00 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:13:59:04 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:13:59:20 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:13:59:20 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:13:59:36 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:13:59:52 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:13:59:52 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:00:02 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:01:23 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:01:23 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:01:39 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:02:13 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:02:13 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:02:22 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:03:13 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:03:25 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:03:25 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:03:34 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:03:44 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:04:44 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:04:44 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:04:50 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:04:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:05:38 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:05:38 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:05:47 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:06:00 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:06:00 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:06:09 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:06:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:06:39 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:06:39 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:06:45 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:06:48 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:06:49 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:06:49 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:06:50 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:06:50 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:07:15 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:07:15 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:07:24 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:08:02 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:08:02 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:08:14 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:10:12 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:10:12 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:10:21 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:10:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:11:19 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:11:19 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:11:27 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:12:09 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:12:09 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:12:15 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:12:19 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:12:20 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:12:21 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:14:00 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:14:00 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:14:09 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:14:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:14:49 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:14:14:49 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:14:14:58 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:14:14:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:15:00 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:14:20:19 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:42:31 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:15:43:29 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:43:29 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:45:31 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:15:45:31 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:15:45:38 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:15:45:38 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:45:38 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:50:50 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:15:50:50 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:15:51:09 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:15:51:09 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:51:09 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:51:46 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:15:51:46 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:15:51:55 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:15:52:04 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:04 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:04 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:06 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:06 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:06 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:09 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:09 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:09 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:11 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:15:52:11 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:15:52:40 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:15:52:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:52:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:59:39 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:15:59:39 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:15:59:45 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:15:59:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:59:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:59:48 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:59:48 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:15:59:48 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:02:16 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:02:16 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:02:26 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:02:26 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:02:26 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:03:43 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:03:43 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:03:53 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:03:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:03:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:03:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:05:24 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:05:24 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:05:30 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:08:20 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:08:20 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:08:25 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:08:27 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:08:27 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:08:28 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:08:28 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:12:15 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:12:15 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:12:20 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:13:47 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:13:47 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:13:52 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:14:20 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:14:20 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:14:33 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:14:38 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:14:38 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:15:54 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:15:54 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:16:00 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:16:47 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:16:47 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:16:53 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:16:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:16:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:16:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:16:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:16:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:06 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:17:06 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:17:11 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:17:14 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:14 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:15 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:15 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:15 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:15 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:16 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:16 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:16 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:16 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:48 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:17:48 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:17:53 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:17:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:55 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:55 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:55 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:17:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:18:08 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:18:08 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:18:14 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:18:14 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:18:14 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:19:27 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:19:27 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:19:32 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:19:45 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:19:45 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:21:27 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:21:29 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:21:29 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:21:29 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:21:45 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:21:45 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:21:54 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:21:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:21:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:21:57 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:21:59 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:23:10 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:23:10 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:57:04 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:57:07 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:57:30 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:57:30 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:57:38 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:59:21 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:16:59:21 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:16:59:38 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:16:59:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:59:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:59:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:59:43 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:59:43 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:16:59:43 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:00:40 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:00:40 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:00:54 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:00:57 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:00:57 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:00:57 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:00:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:00:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:02:05 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:02:05 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:05:17 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:05:21 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:05:21 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:05:22 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:09:39 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:09:39 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:09:47 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:20:15 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:20:15 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:20:24 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:21:03 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:21:03 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:21:09 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:21:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:12 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:12 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:13 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:13 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:13 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:14 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:21:55 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:21:55 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:22:00 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:22:03 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:22:04 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:22:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:22:21 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:22:21 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:22:44 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:22:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:22:46 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:23:34 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:23:34 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:23:40 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:23:42 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:23:42 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:23:46 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:24:14 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:24:14 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:24:20 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:24:22 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:24:22 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:24:24 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:29:00 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:29:00 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:29:05 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:29:10 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:29:10 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:30:17 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:30:19 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:30:19 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:30:20 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:32:16 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:32:16 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:32:22 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:34:33 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:34:33 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:34:39 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:35:03 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:35:03 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:35:09 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:35:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:35:55 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:35:55 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:36:02 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:37:27 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:37:27 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:37:32 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:37:33 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:38:05 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:38:05 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:38:12 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:38:12 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:38:44 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:38:44 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:38:50 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:38:52 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:40:34 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:40:34 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:40:35 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:40:36 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:40:36 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:40:49 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:40:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:40:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:40:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:41:37 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:41:37 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:41:43 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:41:46 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:41:46 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:43:39 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:43:39 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:43:46 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:43:48 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:44:19 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:44:19 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:44:25 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:44:26 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:44:26 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:45:18 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:45:18 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:45:26 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:45:27 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:45:27 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:49:59 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:49:59 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:50:05 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:50:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:50:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:51:19 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:51:19 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:51:24 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:51:26 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:51:26 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:52:36 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:52:36 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:52:41 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:52:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:52:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:52:42 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:53:19 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:53:39 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:53:49 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:54:02 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:54:02 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:54:07 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:17:54:09 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:54:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:54:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:54:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:17:55:00 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:17:55:00 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:17:55:05 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:18:12:35 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:18:12:35 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:18:13:28 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:18:13:32 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:13:32 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:13:50 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:13:50 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:13:50 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:14:28 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:18:14:28 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:18:14:38 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:18:14:40 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:14:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:14:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:14:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:18:51 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:18:18:51 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:18:18:56 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:18:19:30 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:18:19:30 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:18:19:40 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:18:19:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:19:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:19:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:19:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:18:39:26 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:18:39:26 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:20:44:24 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:20:44:27 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:20:44:27 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:20:54:40 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:20:54:46 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:20:54:46 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:20:54:47 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:20:54:47 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:20:55:22 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:20:55:22 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:20:59:40 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:20:59:42 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:20:59:42 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:20:59:43 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:20:59:44 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:20:59:44 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:21:13:11 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:21:13:16 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:21:13:16 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:21:17:48 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:21:17:49 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:21:17:49 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:21:37:02 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:21:37:21 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:37:21 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:37:21 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:37:21 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:39:30 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:21:39:30 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:21:39:37 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:21:39:37 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:39:37 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:40:09 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:21:40:09 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:21:40:26 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:21:40:27 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:40:27 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:41:14 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:41:14 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:41:22 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:41:23 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:54:45 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:21:54:45 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:21:54:57 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:21:55:08 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:55:08 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:55:08 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:21:59:35 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:21:59:35 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:22:01:59 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:22:02:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:02:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:02:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:02:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:02:07 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:22:02:07 +0200] Server.httpServe: BACKEND STOPPED
