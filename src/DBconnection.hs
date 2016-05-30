@@ -5,6 +5,7 @@ import Database.PostgreSQL.Simple.FromRow
 import Database.PostgreSQL.Simple
 --import Database.HDBC.PostgreSQL
 --import Database.HDBC
+import Data.Int (Int64)
 import Data.Aeson
 
 data Table = Table {season1 :: Integer, 
@@ -69,10 +70,10 @@ teamQueryUnorderd =
        -- Run the query
        query conn  "select t.name from team t" ()
        
-addMatch :: Match -> IO [Integer]
+addMatch :: Match -> IO (Int64)
 addMatch (Match week season home away score1 score2) =
     do -- Connect to the database
        conn <- connectPostgreSQL "host=localhost dbname=testDB user=postgres password=postgres"
        
        -- Run the query
-       query conn "INSERT INTO Match VALUES (?,?,?,?,?,?) returning matchweek;" (week, season, home, away, score1, score2)
+       execute conn "INSERT INTO Match VALUES (?,?,?,?,?,?) returning matchweek;" (week, season, home, away, score1, score2)

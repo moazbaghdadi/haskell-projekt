@@ -52,19 +52,18 @@ loadTeams =  do
 --    ascore <- getPostParam "awayscore"
 --    writeJSON (unsafePerformIO (addMatch (Match (runGet getWord32be bytes wk) s hteam ateam hscore ascore)))
 --    modifyResponse $ setResponseCode 201
-
-{--postmatch :: Snap ()
+{--
+postmatch :: Snap ()
 postmatch = do
-    wk <- getParams
+    wk <- getParam "matchweek"
     s <- getParam "season"
     hteam <- getParam "hometeam"
     ateam <- getParam "awayteam"
     hscore <- getParam "homescore"
     ascore <- getParam "awayscore"
     maybe (writeBS "must specify echo/param in URL")
-          writeBS wk
-    --writeJSON (unsafePerformIO (addMatch (Match (getParam "matchweek") (getParam "season") (unpack maybe (getParam "hometeam")) (unpack . getParam "awayteam") (getParam "homescore") (getParam "awayscore") ))) -- wie kann man es besser machen?
- --}       
+          writeBS (unsafePerformIO (addMatch (Match (getParam "matchweek") (getParam "season") (unpack maybe (getParam "hometeam")) (unpack . getParam "awayteam") (getParam "homescore") (getParam "awayscore") ))) -- wie kann man es besser machen?
+--}   
 echoHandler :: Snap ()
 echoHandler = do
     param <- getParam "echoparam"
