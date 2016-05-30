@@ -628,3 +628,731 @@ mallocPlainForeignPtrBytes: size must be >= 0
 mallocPlainForeignPtrBytes: size must be >= 0
 [29/May/2016:22:02:07 +0200] Server.httpServe: SHUTDOWN
 [29/May/2016:22:02:07 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:22:31:03 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:22:31:07 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:31:07 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:32:50 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:22:32:50 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:22:32:56 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:22:32:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:32:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:32:57 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:33:04 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:33:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:33:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:33:20 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:33:20 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:33:20 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:40:00 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:40:00 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:40:01 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:40:01 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:40:01 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:41:42 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:22:41:42 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:22:41:50 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:22:41:52 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:41:52 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:41:52 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:41:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:41:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:41:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:47:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:47:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:47:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:51:31 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:51:31 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:22:51:31 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:05:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:05:45 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:06:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:06:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:11:25 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:11:25 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:17:08 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:17:08 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:17:32 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:17:32 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:17:32 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:17:40 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:17:40 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:18:09 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:18:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:18:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:20:08 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:20:50 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:20:51 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:21:17 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:21:17 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:21:36 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:21:36 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:22:29 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:22:29 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:23:10 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:23:11 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:24:40 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:24:40 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:02 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:12 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:13 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:13 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:36 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:36 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:36 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:46 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:46 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:25:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:26:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:26:05 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:26:17 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:26:17 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:26:33 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:26:33 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:26:42 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:26:42 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:30:25 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:30:25 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:30:25 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:30:34 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:30:34 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:36:39 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:36:39 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:36:39 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:40:29 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:23:40:29 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:23:51:48 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:23:51:55 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:51:55 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56607
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56607\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:51:55 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56606
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56606\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:51:55 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56608
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56608\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:51:55 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56609
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56609\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:51:55 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56610
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56610\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:51:55 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56615
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56615\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:52:36 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:23:52:36 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:23:52:48 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:23:52:48 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:52:49 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:52:49 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:52:49 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56669
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56669\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:52:49 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:52:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:52:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:52:56 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56674
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56674\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate, sdch\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:52:56 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56679
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56679\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:56:50 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:23:56:50 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:23:56:50 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:23:56:51 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:23:56:51 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:23:57:33 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:23:57:34 +0200] Server.httpServe: SHUTDOWN
+[29/May/2016:23:57:34 +0200] Server.httpServe: BACKEND STOPPED
+[29/May/2016:23:58:51 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[29/May/2016:23:58:53 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:58:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:58:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:58:54 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56740
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56740\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[29/May/2016:23:58:54 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[29/May/2016:23:58:54 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56746
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56746\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:00:14 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:00:14 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:00:03:38 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:00:03:41 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56812
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56812\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:08:25 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:08:25 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:00:08:41 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:00:08:43 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:08:43 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:08:44 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56870
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56870\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:08:44 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56874
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56874\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:08:44 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:10:33 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:10:33 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:00:10:48 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:00:10:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:10:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:10:58 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56910
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56910\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate, sdch\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:10:58 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56911
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56911\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:10:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:10:59 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56917
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56917\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:28 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56937
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56937\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:28 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56938
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56938\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:28 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56939
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56939\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:28 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56940
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56940\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:28 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56941
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56941\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:28 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56942
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56942\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:29 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56945
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56945\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:31 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56946
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56946\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:31 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56952
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56952\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:36 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56953
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56953\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:36 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56954
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56954\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:36 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56955
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56955\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:36 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56956
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56956\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:36 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56959
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56959\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:37 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56960
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56960\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:38 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56963
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56963\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:42 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56964
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56964\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:11:43 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56972
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56972\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:12:08 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56982
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56982\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:12:09 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56985
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56985\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:12:10 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:56991
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:56991\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:12:11 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:12:11 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:00:12:23 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:00:12:42 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:12:42 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:00:12:48 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:00:13:17 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:13:17 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:00:16:15 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:00:16:15 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:16:15 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:16:16 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57082
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57082\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate, sdch\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:26 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57083
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57083\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:26 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57086
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57086\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:26 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57087
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57087\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:26 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57088
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57088\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:26 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57098
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57098\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:26 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57099
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57099\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:26 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57102
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57102\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:27 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57103
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57103\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:27 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57109
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57109\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:30 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:16:30 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57111
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57111\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate, sdch\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:30 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57113
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57113\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:30 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57112
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57112\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate, sdch\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:16:30 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57116
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57116\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Connection: keep-alive\n X-Requested-With: XMLHttpRequest\n Host: localhost:8000\n Accept: application/json, text/plain, */*\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n Referer: http://localhost:8000/\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:17:08 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57122
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57122\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:17:08 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57124
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57124\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:17:13 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57125
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57125\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:17:13 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57128
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57128\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:17:33 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57142
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57142\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:17:34 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57143
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57143\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:17:35 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57146
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57146\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTeams\n    contextpath: /\n    URI: /getTeams\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:17:37 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:17:37 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:00:17:50 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:00:18:02 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57176
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57176\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:02 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57175
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57175\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:02 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57195
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57195\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:02 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57196
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57196\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:02 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57197
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57197\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:02 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57198
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57198\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:03 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57202
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57202\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:08 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57203
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57203\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:08 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57206
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57206\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:18:38 +0200] httpSession caught an exception during sending response phase:
+During processing of request from 127.0.0.1:57219
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:57219\n    local: 127.0.0.1:8000\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36\n Upgrade-Insecure-Requests: 1\n Connection: keep-alive\n Host: localhost:8000\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n Accept-Encoding: gzip, deflate\n Cache-Control: max-age=0\n Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      \n      ========================================\n    pathinfo: getTable\n    contextpath: /\n    URI: /getTable\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+SqlError {sqlState = "42703", sqlExecStatus = FatalError, sqlErrorMsg = "Spalte \226\128\158season\226\128\156 existiert nicht", sqlErrorDetail = "", sqlErrorHint = ""}
+[30/May/2016:00:19:13 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:19:13 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:00:25:53 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:00:25:56 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:27:24 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:00:48:24 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:00:48:24 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:02:09:37 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:02:10:41 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:12:12 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:12:40 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:17:59 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:17:59 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:18:00 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:19:39 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:25:35 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:02:25:35 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:02:25:55 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:02:42:36 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:42:36 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:42:58 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:42:59 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:43:18 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:43:18 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:46:33 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:46:33 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:46:43 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:46:43 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:46:44 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:50:00 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:02:50:00 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:02:50:23 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:02:52:39 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:52:39 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:52:39 +0200] ["127.0.0.1"]: an exception escaped to toplevel:
+mallocPlainForeignPtrBytes: size must be >= 0
+[30/May/2016:02:52:42 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:02:52:42 +0200] Server.httpServe: BACKEND STOPPED
+[30/May/2016:02:52:49 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[30/May/2016:02:53:16 +0200] Server.httpServe: SHUTDOWN
+[30/May/2016:02:53:16 +0200] Server.httpServe: BACKEND STOPPED

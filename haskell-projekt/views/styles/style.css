@@ -20,3 +20,12 @@ table {
     width: 100%;
     margin: 10px;
 }
+.addMatch {
+    margin: 30px;
+}
+label {
+    margin:10px;
+}
+input, select {
+    margin:5px 0px;
+}

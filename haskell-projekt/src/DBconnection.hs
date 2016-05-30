@@ -2,8 +2,6 @@
 module DBconnection where
 
 import Database.PostgreSQL.Simple.FromRow
-import Database.PostgreSQL.Simple.ToRow
-import Database.PostgreSQL.Simple.ToField
 import Database.PostgreSQL.Simple
 --import Database.HDBC.PostgreSQL
 --import Database.HDBC
@@ -24,6 +22,8 @@ data Match = Match {
     awayteam :: String, 
     homescore :: Integer,
     awayscore :: Integer}
+
+data TeamName = TeamName {teamname :: String} deriving (Show)
     
 instance FromJSON Match where
   parseJSON (Object v) =
@@ -41,6 +41,9 @@ instance FromRow Team where
 instance FromRow Integer where
   fromRow = field
 
+instance FromRow TeamName where
+  fromRow = TeamName <$> field
+  
 seasonQuery :: IO [Integer]
 seasonQuery = 
     do -- Connect to the database
@@ -58,6 +61,14 @@ teamQuery season =
        -- Run the query
        query conn  "select t.name, p.points, p.goaldiff, t.logo from team t join points p on t.name = p.team where season = ? order by (points, goaldiff) desc" (Only season)
 
+teamQueryUnorderd :: IO [TeamName]
+teamQueryUnorderd = 
+    do -- Connect to the database
+       conn <- connectPostgreSQL "host=localhost dbname=testDB user=postgres password=postgres"
+
+       -- Run the query
+       query conn  "select t.name from team t" ()
+       
 addMatch :: Match -> IO [Integer]
 addMatch (Match week season home away score1 score2) =
     do -- Connect to the database
