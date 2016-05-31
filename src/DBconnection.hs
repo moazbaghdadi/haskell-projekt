@@ -1,78 +1,52 @@
 {-# LANGUAGE OverloadedStrings #-}
 module DBconnection where
 
-import Database.PostgreSQL.Simple.FromRow
+--local imports--
+import Utils
+-----------------
+
 import Database.PostgreSQL.Simple
---import Database.HDBC.PostgreSQL
---import Database.HDBC
 import Data.Int (Int64)
-import Data.Aeson
 
-data Table = Table {season1 :: Integer, 
-    teams :: [Team]}
-    
-data Team = Team { team :: String, 
-    points :: Integer, 
-    goaldiff :: Integer, 
-    logo :: String} deriving (Show)
+--------------------------------------------------------------
+-----------------         Queries        ---------------------
+--------------------------------------------------------------
 
-data Match = Match {
-    matchweek :: Integer, 
-    season2 :: Integer,
-    hometeam :: String, 
-    awayteam :: String, 
-    homescore :: Integer,
-    awayscore :: Integer}
+-- Connection to the database
+conn :: IO Connection
+conn = connectPostgreSQL "host=localhost dbname=testDB user=postgres password=postgres"
 
-data TeamName = TeamName {teamname :: String} deriving (Show)
-    
-instance FromJSON Match where
-  parseJSON (Object v) =
-    Match <$> v .: "matchweek"
-          <*> v .: "season2"
-          <*> v .: "hometeam"
-          <*> v .: "awayteam"
-          <*> v .: "homescore"
-          <*> v .: "awayscore"
-  parseJSON _ = fail "error at converting JSON"
-
-instance FromRow Team where
-  fromRow = Team <$> field <*> field <*> field <*> field
-  
-instance FromRow Integer where
-  fromRow = field
-
-instance FromRow TeamName where
-  fromRow = TeamName <$> field
-  
 seasonQuery :: IO [Integer]
-seasonQuery = 
-    do -- Connect to the database
-       conn <- connectPostgreSQL "host=localhost dbname=testDB user=postgres password=postgres"
-
-       -- Run the query
-       query conn "SELECT * from seasons" ()
+seasonQuery = do
+    connection <- conn
+    query connection "SELECT * from seasons" ()
 
 teamQuery :: Integer -> IO [Team]
-teamQuery season = 
-    do -- Connect to the database
-       conn <- connectPostgreSQL "host=localhost dbname=testDB user=postgres password=postgres"
-
-       -- Run the query
-       query conn  "select t.name, p.points, p.goaldiff, t.logo from team t join points p on t.name = p.team where season = ? order by (points, goaldiff) desc" (Only season)
+teamQuery season = do 
+    connection <- conn
+    query connection  "select t.name, p.points, p.goaldiff, t.logo from team t join points p on t.name = p.team where season = ? order by (points, goaldiff) desc" (Only season)
 
 teamQueryUnorderd :: IO [TeamName]
-teamQueryUnorderd = 
-    do -- Connect to the database
-       conn <- connectPostgreSQL "host=localhost dbname=testDB user=postgres password=postgres"
+teamQueryUnorderd = do 
+    connection <- conn
+    query connection "select t.name from team t" ()
+ 
+getChances :: Integer -> IO [TeamName]
+getChances season = do 
+    connection <- conn
+    query connection "select t.name from team t join (select x2.team,x2.points+x1.maximum as maxpoints from (select (38-max(m.matchweek))*3 as maximum from match m where season = ?) x1, (select p.team,p.points from team t join points p on t.name = p.team where season = ? ) x2) m on t.name = m.team  where m.maxpoints >= (select max(p.points) from points p where season = ?) order by m.maxpoints desc" (season, season, season)
 
-       -- Run the query
-       query conn  "select t.name from team t" ()
+allMatchesQuery :: Integer -> IO [Match]
+allMatchesQuery season = do 
+    connection <- conn
+    query connection "select matchweek, season, hometeam, awayteam, homescore, awayscore from match where season = ?" (Only season)
        
+matchQuery :: Integer -> String -> IO [Match]
+matchQuery season team = do
+    connection <- conn
+    query connection "select matchweek, season, hometeam, awayteam, homescore, awayscore from match where season = ? and (hometeam = ? or awayteam = ?)" (season, team, team)
+
 addMatch :: Match -> IO (Int64)
-addMatch (Match week season home away score1 score2) =
-    do -- Connect to the database
-       conn <- connectPostgreSQL "host=localhost dbname=testDB user=postgres password=postgres"
-       
-       -- Run the query
-       execute conn "INSERT INTO Match VALUES (?,?,?,?,?,?);" (week, season, home, away, score1, score2)
+addMatch (Match week season home away score1 score2) = do
+    connection <- conn
+    execute connection "INSERT INTO Match VALUES (?,?,?,?,?,?);" (week, season, home, away, score1, score2)

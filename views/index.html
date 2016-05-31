@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+		<script src="scripts/script.js"></script>
 </head>
 <body>
 	<header>
@@ -14,17 +15,33 @@
 	<main> 
 	<div ng-controller="TableController">
 		<nav>
-				<a ng-click="tableClick()">TABLE</a> <a ng-click="addMatchesClick()">ADD MATCHES</a> <a ng-click="chancesClick()">CHANCES</a>
+				<a ng-click="tableClick()">TABLE</a> <a ng-click="matchesClick()">MATCHES</a> <a ng-click="addMatchesClick()">ADD MATCHES</a> <a ng-click="chancesClick()">CHANCES</a>
 		</nav>	
-		<table ng-show="showtable">
-				<h2>Season: {{season}}</h2>
+		<div ng-show="showtable">
+		<h2>Season: {{season}}</h2>
+		<table>
 				<tr>
-					<td width="20%">Logo</td><td width="30%">Team</td><td width="10%">Points</td><td width="10%">GD</td>
+					<td width="20%"><b>Logo</b></td><td width="30%"><b>Team</b></td><td width="10%"><b>Points</b></td><td width="10%"><b>GD</b></td>
 				</tr>
 				<tr ng-repeat="row in rows">
 					<td><img src="/images/{{row.logo}}" height="50%" /></td><td>{{row.team}}</td><td>{{row.points}}</td><td>{{row.goaldiff}}</td>
 				</tr>
 		</table>
+		</div>
+		<div ng-show="showmatches" style="margin-top: 30px">
+		<label for="Season">Season:</label><input input type="number" name="Season" ng-model="matchseason" value="2015" min="2015" />
+		<label for="Team">Team:</label><select name="Team" ng-model="team"><option>All</option><option ng-repeat="team in teams">{{team.teamname}}</option></select>
+		<input type="submit" ng-click="selectMatchesTeam()" value="Submit">
+		<p ng-show="showMatcherr">Error: please check the fields and make sure that the season exists</p>
+		<table>
+				<tr>
+					<td width="10%"><b>week</b></td><td width="30%"><b>Home Team</b></td><td width="10%"><b>Home Score</b></td><td width="10%"><b>Away Score</b></td><td width="30%"><b>Away Team</b></td>
+				</tr>
+				<tr ng-repeat="match in matches">
+					<td>{{match.matchweek}}</td><td>{{match.hometeam}}</td><td>{{match.homescore}}</td><td>{{match.awayscore}}</td><td>{{match.awayteam}}</td>
+				</tr>
+		</table>
+		</div>
 		<div ng-show="showaddform" class="addMatch"> 
 				<label for="Season">Season:</label><input input type="number" name="Season" ng-model="season" value="2015" min="2015" />
 				<label for="MatchWeek">Match Week:</label><input input type="number" name="MatchWeek" ng-model="matchweek" value="1" min="0" max="38" /> <br />
@@ -33,75 +50,17 @@
 				<input type="submit" ng-click="submitMatch()" value="Submit">
 				<p ng-show="showerr">Error: please check the fields and make sure that the match is not already added</p>
 		</div>
-		<p ng-show="showchances"> huhu2 </p>
+		<div ng-show="showchances" style="margin-top: 35px">
+				<table>
+						<tr>
+							<td width="30%"><b>Team</b></td>
+						</tr>
+						<tr ng-repeat="team in chances">
+							<td>{{team.teamname}}</td>
+						</tr>
+				</table>
+		</div>
 	</div>
 	</main>
 </body>
-<script>
-var app = angular.module('myApp', []);
-
-app.controller('TableController', ['$window', '$scope', '$http', function($window,$scope, $http) {
-		$scope.showtable = true;
-		$scope.showaddform = false;
-		$scope.showchances =  false;
-		$scope.showerr = false;
-		
-		$http.get("/getTable")
-		.then(function (response) {
-		$scope.season = response.data.season;
-		$scope.rows = response.data.teams;
-		});
-		
-		$http.get("/getTeams")
-		.then(function (response) {
-		$scope.teams = response.data;
-		});
-		
-		$scope.tableClick = function() {
-				$scope.showtable = true;
-				$scope.showaddform = false;
-				$scope.showchances =  false;
-		}
-		
-		$scope.addMatchesClick = function() {
-				$scope.showtable = false;
-				$scope.showaddform = true;
-				$scope.showchances =  false;
-		}
-		
-		$scope.chancesClick = function() {
-				$scope.showtable = false;
-				$scope.showaddform = false;
-				$scope.showchances =  true;
-		}
-		
-		$scope.submitMatch = function() {
-				
-				var req = {
-						matchweek : $scope.matchweek,
-						season: $scope.season,
-						hometeam: $scope.hometeam,
-						awayteam: $scope.awayteam,
-						homescore: $scope.homescore,
-						awayscore: $scope.awayscore
-				}
-				$http({
-				url: "/postmatch",
-				method: "GET",
-				params: req
-				})
-				.then(function (response) {
-					$scope.showerr = false;
-					$http.get("/getTable")
-					.then(function (response) {
-						$scope.season = response.data.season;
-						$scope.rows = response.data.teams;
-					});
-				}, function(data) {
-					$scope.showerr = true;
-				});
-		}
-
-}]);
-</script>
 </html>
