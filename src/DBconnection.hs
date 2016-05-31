@@ -53,7 +53,6 @@ seasonQuery =
        -- Run the query
        query conn "SELECT * from seasons" ()
 
-
 teamQuery :: Integer -> IO [Team]
 teamQuery season = 
     do -- Connect to the database
@@ -76,4 +75,4 @@ addMatch (Match week season home away score1 score2) =
        conn <- connectPostgreSQL "host=localhost dbname=testDB user=postgres password=postgres"
        
        -- Run the query
-       execute conn "INSERT INTO Match VALUES (?,?,?,?,?,?) returning matchweek;" (week, season, home, away, score1, score2)
+       execute conn "INSERT INTO Match VALUES (?,?,?,?,?,?);" (week, season, home, away, score1, score2)
