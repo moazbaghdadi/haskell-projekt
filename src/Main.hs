@@ -1,15 +1,15 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
+import           DBconnection
 import           Control.Applicative
 import           System.IO.Unsafe
 import           Snap.Core
 import           Snap.Util.FileServe
 import           Snap.Http.Server
 import           Data.Aeson
-import           DBconnection
-import           Data.Int (Int64)
 import           Data.ByteString.Char8
+import           Control.Monad.IO.Class
 
 
 instance ToJSON Table where
@@ -27,48 +27,38 @@ main = quickHttpServe site
 site :: Snap ()
 site =
     route [ ("/", serveDirectory "views")
-          , ("echo/:echoparam", echoHandler)
           , ("/getTable", loadTable)
           , ("/getTeams", loadTeams)
-          --, ("/postmatch?:season", postmatch)
+          , ("/postmatch", postmatch)
           ]
-
           
 loadTable :: Snap ()
 loadTable =  do
-    method GET (writeJSON (Table {season1 = 2015 , teams = unsafePerformIO (teamQuery 2015) })) -- wie kann man es besser machen?
+    result <- liftIO $ teamQuery 2015
+    method GET $ writeJSON Table {season1 = 2015 , teams = result }
 
 loadTeams :: Snap ()
 loadTeams =  do
-    method GET (writeJSON (unsafePerformIO (teamQueryUnorderd))) -- wie kann man es besser machen?
-    
---createTodo :: Snap ()
---createTodo = do
---    wk <- getPostParam "matchweek"
---    s <- getPostParam "season"
---    hteam <- getPostParam "hometeam"
---    ateam <- getPostParam "awayteam"
---    hscore <- getPostParam "homescore"
---    ascore <- getPostParam "awayscore"
---    writeJSON (unsafePerformIO (addMatch (Match (runGet getWord32be bytes wk) s hteam ateam hscore ascore)))
---    modifyResponse $ setResponseCode 201
-{--
+    result <- liftIO $ teamQueryUnorderd
+    method GET $ writeJSON result
+
 postmatch :: Snap ()
 postmatch = do
     wk <- getParam "matchweek"
-    s <- getParam "season"
+    season <- getParam "season"
     hteam <- getParam "hometeam"
     ateam <- getParam "awayteam"
     hscore <- getParam "homescore"
     ascore <- getParam "awayscore"
-    maybe (writeBS "must specify echo/param in URL")
-          writeBS (unsafePerformIO (addMatch (Match (getParam "matchweek") (getParam "season") (unpack maybe (getParam "hometeam")) (unpack . getParam "awayteam") (getParam "homescore") (getParam "awayscore") ))) -- wie kann man es besser machen?
---}   
-echoHandler :: Snap ()
-echoHandler = do
-    param <- getParam "echoparam"
-    maybe (writeBS "must specify echo/param in URL")
-          writeBS param
+    x <- liftIO $ addMatch (Match (bsToInteger wk) (bsToInteger season) (bsToString hteam) (bsToString ateam) (bsToInteger hscore) (bsToInteger ascore) )
+    method POST $ loadTable
+          
+
+bsToInteger :: Maybe ByteString -> Integer
+bsToInteger bs = maybe (0 :: Integer) (read . unpack) bs
+
+bsToString :: Maybe ByteString -> String
+bsToString bs = maybe ("" :: String) (unpack) bs
 
 -- | Mark response as 'application/json'
 jsonResponse :: MonadSnap m => m ()
@@ -78,26 +68,3 @@ writeJSON :: (MonadSnap m, ToJSON a) => a -> m ()
 writeJSON a = do
   jsonResponse
   writeLBS . encode $ a
-
--------------------------------------------------------------------------------
--- | Try to parse request body as JSON with a default max size of
--- 50000.
-getJSON :: (MonadSnap m, FromJSON a) => m (Either String a)
-getJSON = getBoundedJSON 50000
-
-
--------------------------------------------------------------------------------
--- | Parse request body into JSON or return an error string.
-getBoundedJSON 
-    :: (MonadSnap m, FromJSON a) 
-    => Int64 
-    -- ^ Maximum size in bytes
-    -> m (Either String a)
-getBoundedJSON n = do
-  bodyVal <- decode `fmap` readRequestBody n
-  return $ case bodyVal of
-    Nothing -> Left "Can't find JSON data in POST body"
-    Just v -> case fromJSON v of
-                Error e -> Left e
-                Success a -> Right a
-
