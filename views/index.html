@@ -28,9 +28,10 @@
 		<div ng-show="showaddform" class="addMatch"> 
 				<label for="Season">Season:</label><input input type="number" name="Season" ng-model="season" value="2015" min="2015" />
 				<label for="MatchWeek">Match Week:</label><input input type="number" name="MatchWeek" ng-model="matchweek" value="1" min="0" max="38" /> <br />
-				<label for="HomeTeam">Home Team:</label> <select name="HomeTeam"><option ng-repeat="team in teams" ng-model="hometeam" value="Real Madrid">{{team.teamname}}</option></select> <label for="HomeScore">Home Score:</label> <input input type="number" name="HomeScore" ng-model="homescore" value="0" min="0" max="15" /><br />
-				<label for="AwayTeam">Away Team:</label> <select name="AwayTeam"><option ng-repeat="team in teams" ng-model="awayteam" value="Barcelona">{{team.teamname}}</option></select> <label for="HomeScore">Away Score:</label> <input input type="number" name="AwayScore" ng-model="awayscore" value="0" min="0" max="15" /><br />
+				<label for="HomeTeam">Home Team:</label> <select name="HomeTeam" ng-model="hometeam"><option ng-repeat="team in teams">{{team.teamname}}</option></select> <label for="HomeScore">Home Score:</label> <input input type="number" name="HomeScore" ng-model="homescore" value="0" min="0" max="15" /><br />
+				<label for="AwayTeam">Away Team:</label> <select name="AwayTeam" ng-model="awayteam"><option ng-repeat="team in teams">{{team.teamname}}</option></select> <label for="HomeScore">Away Score:</label> <input input type="number" name="AwayScore" ng-model="awayscore" value="0" min="0" max="15" /><br />
 				<input type="submit" ng-click="submitMatch()" value="Submit">
+				<p ng-show="showerr">Error: please check the fields and make sure that the match is not already added</p>
 		</div>
 		<p ng-show="showchances"> huhu2 </p>
 	</div>
@@ -43,15 +44,16 @@ app.controller('TableController', ['$window', '$scope', '$http', function($windo
 		$scope.showtable = true;
 		$scope.showaddform = false;
 		$scope.showchances =  false;
+		$scope.showerr = false;
 		
 		$http.get("/getTable")
-    .then(function (response) {
+		.then(function (response) {
 		$scope.season = response.data.season;
 		$scope.rows = response.data.teams;
 		});
 		
 		$http.get("/getTeams")
-    .then(function (response) {
+		.then(function (response) {
 		$scope.teams = response.data;
 		});
 		
@@ -74,6 +76,7 @@ app.controller('TableController', ['$window', '$scope', '$http', function($windo
 		}
 		
 		$scope.submitMatch = function() {
+				
 				var req = {
 						matchweek : $scope.matchweek,
 						season: $scope.season,
@@ -88,7 +91,14 @@ app.controller('TableController', ['$window', '$scope', '$http', function($windo
 				params: req
 				})
 				.then(function (response) {
-				$window.alert(response.data);
+					$scope.showerr = false;
+					$http.get("/getTable")
+					.then(function (response) {
+						$scope.season = response.data.season;
+						$scope.rows = response.data.teams;
+					});
+				}, function(data) {
+					$scope.showerr = true;
 				});
 		}
 
