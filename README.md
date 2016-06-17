@@ -26,10 +26,14 @@ As a starter with AngularJS, I had to learn a bit about it before being able to 
 
 ##2. Running the Project:
 ###2.1. Installing:
-In the project folder run cabal install to install and compile the project.
+In the project folder run 
+`cabal install`
+to install and compile the project.
 ###2.2. Preparing the Database:
-PostgreSQL must be installed on the server. Run the following command to create the database: createdb -h localhost -p 5432 -U postgres -W testDB
-Simply run this command to initialise the database: psql -U postgres -d testDB --file=DB/query.sql
+PostgreSQL must be installed on the server. Run the following command to create the database: 
+`createdb -h localhost -p 5432 -U postgres -W testDB`
+Then simply run this command to initialise the database: 
+`psql -U postgres -d testDB --file=DB/query.sql`
 ###2.3. Starting the Webserver:
-In the project folder run the command haskell-projekt -p PORT. This launches the server on the given port. On a web browser you can now access the page on http://localhost:PORT
+In the project folder run the command: `haskell-projekt -p PORT`. This launches the server on the given port. On a web browser you can now access the page on `http://localhost:PORT`
 
